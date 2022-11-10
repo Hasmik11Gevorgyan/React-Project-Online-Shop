@@ -7,16 +7,16 @@ function Footer() {
   };
   return (
     <footer className="footer">
-      <div>
-        <h2>Foody</h2>
+      <div className="div">
+        <h2 className="text2">Foody</h2>
         <p className="text1">
           Diam do Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
           totam cupiditate doloremque iste maiores maxime corporis facere.
           Mollitia
         </p>
       </div>
-      <div>
-        <h2>Address</h2>
+      <div className="div">
+        <h2 className="text2">Address</h2>
         <p className="text1">
           <i></i> 123 Street, New York, USA
           <i></i> 123 Street, New York, USA
@@ -32,17 +32,18 @@ function Footer() {
           <i></i> info@example.com
         </p>
       </div>
-      <div>
-        <h2>Quick Links</h2>
+      <div className="div">
+        <h2 className="text2">Quick Links</h2>
         <p className="text1">
-          <i> Facebook</i>
-          <i> YouTube</i>
-          <i> GitHub</i>
-          <i> W3 school</i>
+          <div className="icons">
+          <div className="div-img"></div>
+          <div className="div-img1"> </div>
+          <div className="div-img2"></div>
+          </div>
         </p>
       </div>
-      <div>
-        <h2>newsLetter</h2>
+      <div className="div">
+        <h2 className="text2" >NewsLetter</h2>
         <Link to="/form" className="link">
           {" "}
           Sign in{" "}

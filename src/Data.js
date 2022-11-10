@@ -3,7 +3,7 @@ import Fruits from "./Pages/Fruits";
 const fruits = [
     {
       id: 1,
-      title: "blueberry",
+      title: "Blueberry",
       price : "2$",
       tip:"fruit",
       img: "https://www.santosfood.com/wp-content/uploads/2019/11/1-1.png?480x357",
@@ -11,7 +11,7 @@ const fruits = [
     },
     {
       id: 2,
-      title: "tomato",
+      title: "Tomato",
       price : "3$",
       tip:"vegetables",
       img: "https://www.santosfood.com/wp-content/uploads/2020/01/3-2-500x355.png?500x355",
@@ -19,7 +19,7 @@ const fruits = [
     },
     {
         id: 3,
-        title: "dogwood",
+        title: "Dogwood",
         price : "2$",
         tip:"fruit",
         img: "https://www.santosfood.com/wp-content/uploads/2020/01/6-500x355.png?500x355",

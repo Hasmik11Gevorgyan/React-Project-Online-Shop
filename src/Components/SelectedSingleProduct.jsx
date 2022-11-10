@@ -5,6 +5,7 @@ function SelectedSingleProduct({ title, img,id }) {
     <div className="shop">
       <h className="title">{title}</h>
       <img className="image" src={img} />
+      {/* <key={id} /> */}
     </div>
     </div>
   );

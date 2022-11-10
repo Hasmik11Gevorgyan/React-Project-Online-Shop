@@ -16,8 +16,8 @@ export default function Form() {
     <section>
       <div className="register">
         <div className="col-1">
-          <h2>Sign in</h2>
-          <span> Register and enjoy the service</span>
+          <h2 className="title">Sign in</h2>
+          <span className="text"> Register and enjoy the service</span>
           <form
             id="form"
             className="flex-flex-col"

@@ -34,7 +34,7 @@ function Home() {
 
           <Link to="/ReadMore" className="link">
             {" "}
-            <button className="button">Read More </button>{" "}
+            <button className="button1">Read More </button>{" "}
           </Link>
         </div>
       </div>
@@ -49,9 +49,10 @@ function Home() {
           sit, sed stet lorem sit clita duo justo magna dolore erat amet Tempor
           erat elitr rebum at clita Clita erat ipsum et lorem et s
         </h2>
+        <div className="visit-img"> </div>
         <Link to="/visit" className="link">
           {" "}
-          <button className="visitButton">Visit Now</button>{" "}
+          <button className="button1">Visit Now</button>{" "}
         </Link>
       </div>
     </div>

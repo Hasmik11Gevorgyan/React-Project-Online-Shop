@@ -10,7 +10,6 @@ const dark = {
 
 function Header() {
   const [screenMode, setScreenMode] = useState(light);
-
   const mode = () => {
     setScreenMode((screenMode) => (screenMode == dark ? light : dark));
   };
@@ -22,21 +21,26 @@ function Header() {
       </Link>
       <Link to="/" className="link">
         Home
+        <div className="shop-img1"></div>
       </Link>
       <Link to="/fruits" className="link">
         Fruits
+        <div className="shop-img2"></div>
       </Link>
       <Link to="/vegetables" className="link">
         Vegetbles
+        <div className="shop-img3"></div>
       </Link>
       <Link to="/fresh" className="link">
         Fresh
+        <div className="shop-img4"></div>
       </Link>
       <Link to="/shoppingCard" className="link">
         My Shopping
+        <div className="shop-img"></div>
       </Link>
       <div className="search">
-        <button className="button" onClick={mode}>
+        <button className="button1" onClick={mode}>
           Dark/Light
         </button>
       </div>

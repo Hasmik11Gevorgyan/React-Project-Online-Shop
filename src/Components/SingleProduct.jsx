@@ -2,7 +2,7 @@ function SingleProduct({ title, imgSrc, addToCard, id }) {
   return (
     <div className="fruit">
       <span className="cardname">{title}</span>
-      <button className="btnadd">About</button>
+      <button className="btn">About</button>
       <img
         src={imgSrc}
         alt="image"
@@ -16,7 +16,7 @@ function SingleProduct({ title, imgSrc, addToCard, id }) {
       >
         Add to Card
       </button>
-      <h4>Fresh Tomato $19.00 $29.00</h4>
+      <h4 className="title1">Fresh Tomato $19.00 $29.00</h4>
     </div>
   );
 }

@@ -7,12 +7,11 @@
     height: 70px;
     padding-top: 10px;
 }
-
 .name {
     padding-left: 100px;
     font-family: fantasy;
     font-size: 50px;
-    color: rgb(7, 60, 11);
+    color: #73d700;
 }
 
 ul {
@@ -26,7 +25,6 @@ ul {
     margin-left: 20px;
     text-decoration: none;
     font-size: 30px;
-    color: white;
     justify-content: space-around;
     color: #73d700;
 }
@@ -40,7 +38,8 @@ ul {
     background-size: cover;
 
 }
-.body-image1{
+
+.body-image1 {
     width: 100%;
     height: 800px;
     background-image: url("carousel-2.jpg");
@@ -184,7 +183,9 @@ ul {
 }
 
 .visit {
-    background-color: greenyellow;
+    padding: 30px;
+    border-radius: 15px;
+    border: 8px solid greenyellow;
     width: 100%;
     height: 400px;
     display: flex;
@@ -197,109 +198,232 @@ ul {
     font-size: 25px;
     color: #73d700;
     padding: 20px;
-
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
-
+.visit-img {
+    margin-left: 50px;
+    padding: 50px;
+    width: 400px;
+    height: 300px;
+    background-image: url("about.jpg");
+    background-size: cover;
+}
 .visitButton {
-    width: 150px;
+    width: 200px;
     height: 40px;
     background-color: #73d700;
     color: blanchedalmond;
     border-radius: 15px;
-    margin-top: 150px;
+    /* margin-top: 150px; */
+    color: #666;
+    font-size: 20px;
 }
 
 .footer {
     justify-content: space-evenly;
     width: 100%;
-    height: 400px;
+    height: 500px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 150px;
     border-radius: 15px;
     padding: 30px;
     background-color: #666;
+    margin-top: 200px;
 }
 
 .text1 {
-    
     width: 350px;
     height: 300px;
-
 }
-.aboutus{
-   margin-bottom: 100px;
+
+.aboutus {
     width: 700px;
-   display: flex;
+    position: relative;
     font-size: 55px;
     color: rgb(152, 206, 27);
     align-items: center;
-    position: relative;
-    top: 150px;
+    
 }
-.Fruits{
+.Fruits {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
-.fruit{
-    margin:20px;
+.fruit {
+    margin: 20px;
     padding: 30px;
     width: 200px;
     height: 300px;
     align-items: center;
-    background-color:white;
+    background-color: white;
     border-radius: 15px;
-    border:3px solid #73d700;
+    border: 3px solid #73d700;
 }
-.btnAdd{
+
+.btnAdd {
     width: 160px;
     height: 40px;
-    background-color:#73d700;
+    background-color: #73d700;
     border-radius: 15px;
     color: #666;
+    font: 25px;
 }
-.cardname{
+.cardname {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 20px;
     color: #73d700;
 }
-.searchbtn{
-display: flex;
-justify-content:center;
-margin-top: 30px;
+.searchbtn {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
 }
-.searchbutton{
+
+.searchbutton {
     width: 90px;
     height: 40px;
     background-color: #73d700;
     border-color: #666;
     color: aliceblue;
-    font-size: 25px;
+    font-size: 20px;
     border-radius: 15px;
 }
-.searchinput{
+
+.searchinput {
     width: 150px;
     height: 40px;
     font-size: 25px;
     border-radius: 15px;
     border-color: #666;
 }
-.Fresh{
+.Fresh {
     display: flex;
     flex-direction: row;
-    flex-wrap:wrap ;
+    flex-wrap: wrap;
     margin-top: 100px;
     justify-content: space-between;
 }
-.cart{
+.cart {
     height: 100%;
-background-image: url("icon.png");
-overflow: hidden;
-background-repeat: no-repeat;
-align-items: center;
-margin-left: 10px;
+    background-image: url("icon.png");
+    overflow: hidden;
+    background-repeat: no-repeat;
+    align-items: center;
+    margin-left: 10px;
 }
+
+.btn {
+    width: 50px;
+    height: 20px;
+    background-color: #73d700;
+    color: #666;
+    border-radius: 15px;
+}
+
+.title1 {
+    color: red;
+
+}
+.shop-img{
+    background-image: url("icon.png");
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+}
+.shop-img1{
+    background-image: url("home.png");
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+    color: #666;
+}.shop-img2{
+    background-image: url("fruit-icon.png");
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+}.shop-img3{
+    background-image: url("veg-icon.png");
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+}.shop-img4{
+    background-image: url("fresh-icon.png");
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+}
+.button1{
+    width: 150px;
+    height: 50px;
+    background-color: #73d700;
+    font-size: 20px;
+    border-radius: 15px;
+}
+.text2{
+    font-size: 25px;
+    color: #73d700;
+}
+.div{
+    border-left: 5px solid #73d700;
+}
+.div-img{
+    margin-top: 10px;
+    background-image: url("fb-icon-11.png");
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+}
+.div-img1{
+    margin-top: 10px;
+    background-image: url("you-tube.png");
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+}
+.div-img2{
+    margin-top: 10px;
+    background-image: url("download.png");
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+}
+.div-img3{
+    margin-top: 10px;
+    padding:20px;
+    background-image: url("download1.png");
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+}
+.icons{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 10px;
+
+}
+.shop-img5{
+    background-image: url("ab.png");
+    background-size: cover;
+    width: 800px;
+    height: 400px;}
+    
+    .abb{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .text1{
+        margin-top: 50px;
+color: #d3e181;
+font-size: 20px;
+    }
